@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <h1><svg style="border:2px solid black" width="100" height="100">
+        <image xlink:href="img/logo.svg" width="120%" height="120%" x="-10" y="10"/>
+        No se puede cargar el logo.</image>
+      </svg>
+      HOJA DE VIDA</h1>
+      <h2>JOHN ALEJANDRO ORTEGON BERMUDEZ</h2>
+      <h3>14/07/1992 - GIRARDOT (CUNDINAMARCA)</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Experiencia</a></li>
+        <li><a href="#">Educación</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="5%" cellspacing="0">
+        <thead>
+          <tr>
+            <th>AÑO</th>
+            <th>INSTITUCION</th>
+            <th>LUGAR</th>
+            <th>¿CULMINO?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2002</td>
+            <td>Institucio Educativa Santa Ines</td>
+            <td>Fusagasuga</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>ITA Valsalice</td>
+            <td>Fusagasuga</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>UDEC</td>
+            <td>Fusagasuga</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Agregar Estudios</h2>
+      <form>
+        <label for="anio"><strong>Año:</strong></label>
+        <select name="anio">
+          <option value="anios">2000</option>
+          <option value="anios">2002</option>
+          <option value="anios">2004</option>
+          <option value="anios">2006</option>
+          <option value="anios">2008</option>
+          <option value="anios">2010</option>
+          <option value="anios">2012</option>
+          <option value="anios">2014</option>
+          <option value="anios">2017</option>
+        </select></br></br>
+        <label for="instituto"><strong>Institución:</strong></label>
+        <input type="text" name="instituto" required></br></br>
+        <label for="lugar"><strong>Lugar:</strong></label>
+        <textarea name="lugar" rows="5" cols="50"></textarea></br></br>
+        <label for="verificacion">¿Culmino?</label>
+        <input type="radio" name="verificacion">Si
+        <input type="radio" name="verificacion">No</br></br>
+        <input type="button" name="Enviar" value="Enviar">
+      </form>
+    </section>
+    <footer>
+      <p>Correo: Alejoudec92@gmail.com</p>
+      <p>Telefono: (+57) 311 389 7521</p>
+      <p>Fusagasuga - Cundinamarca - Colombia</p>
+    </footer>
+  </body>
+</html>
